@@ -8,7 +8,7 @@ def get_img_as_base64(file):
     return base64.b64encode(data).decode()
 
 # Load your background image using a raw string
-img = get_img_as_base64(r"C:\Users\malat\OneDrive\Desktop\MEENA\guvi\bgim.jpg")
+img = get_img_as_base64(r"bgim.jpg")
 
 # Set the background image using CSS
 page_bg_img = f"""
